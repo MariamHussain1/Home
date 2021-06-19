@@ -1,0 +1,88 @@
+nav.navbar{
+	background-color: #d6eaf8;
+}
+
+
+.jumbotron{
+	background-image: url("https://image.freepik.com/free-vector/abstract-classic-blue-background_23-2148422607.jpg");
+	font-family: oblique;
+	text-decoration: underline;
+	text-decoration-color: #ffffff;
+	opacity: 1.0;
+	transition: opacity 1s;
+	
+}
+
+.jumbotron:hover{
+	background-image: url("https://image.freepik.com/free-vector/abstract-classic-blue-background_23-2148422607.jpg");
+	font-family: oblique;
+	text-decoration: underline;
+	text-decoration-color: #ffffff;
+	opacity: 0.75;
+	
+}
+
+
+.jumbotron h1{
+	font-size: 100px;
+	font-weight: bold;
+	color: #ffffff
+}
+
+h1{
+	font-size:70px;
+	color: #1a5276;
+	font-family: oblique;
+	text-decoration: underline;
+	text-decoration-color: ##1a5276;
+}
+
+#mariam{
+	opacity: 1.0;
+	width: 200px;
+	height:200px;
+	border-radius: 50%;
+	transition: opacity 1s;
+}	
+
+#mariam:hover{
+	width: 200px;
+	height:200px;
+	border-radius: 50%;
+	opacity: 0.75;
+	
+}
+
+p{
+	font-size: 20px;
+	color: #5dade2;
+}
+
+hr{
+	height: 2px;
+	background-color: #85929e
+}
+
+.school{
+	font-size:20px;
+	color:#5499c7;
+}
+
+button{
+	background-color: #1a5276;
+	color: #ffffff;
+	height: 40px;
+	width: 150px;
+
+}
+
+thead{
+	background-color:#d6eaf8;
+}
+
+.table-bordered{
+	border-width: 3px;
+}
+
+	
+

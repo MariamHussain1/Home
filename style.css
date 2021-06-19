@@ -33,18 +33,21 @@ nav.navbar{
 .thumbnail{
 	border-color: #ff9933;
 	border-width: 3px;
-	transition: filter 1s;
+	opacity:1.0;
+	transition: opacity 1s;
 }
 
 .thumbnail:hover{
-	filter: grayscale(100%);
+	opacity:0.5;
 	
 	
 }
 
-#painting{
-	height: 250px;
+
 }
+
+
+
 
 
 
