@@ -1,0 +1,50 @@
+nav.navbar{
+	background-color: #ffcc99;
+}
+
+
+.jumbotron{
+	background-image: url("https://image.freepik.com/free-vector/geometric-background-concept_23-2148540971.jpg");
+	font-family: papyrus;
+	
+	
+}
+.jumbotron h1{
+	font-size: 100px;
+	font-weight: bold;
+}
+.jumbotron h3{
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic
+}
+#intro{
+	font-size: 25px;
+	font-family: Georgia;
+	color: #00805e;
+}
+
+.btn-block{
+	background-color: #00e6a8;
+	border-color: #000000;
+	font-size: 12px;
+	color: #000000;
+}
+.thumbnail{
+	border-color: #ff9933;
+	border-width: 3px;
+	transition: filter 1s;
+}
+
+.thumbnail:hover{
+	filter: grayscale(100%);
+	
+	
+}
+
+#painting{
+	height: 250px;
+}
+
+
+
