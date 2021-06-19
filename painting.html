@@ -7,11 +7,11 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" style="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="painting.css">
 </head>
 <body>
 
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">Mariam Hussain</a>
@@ -26,3 +26,132 @@
     </ul>
   </div>
 </nav>
+
+<!--Adding the jumbotron-->  
+<div id="top" class="container">
+   <div class="jumbotron text-center">
+    <h1>My Art</h1>
+   </div>
+   <div class="dropdown">
+	    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+          Click For Different Art
+		</button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+		  <a class="dropdown-item" href="#intro">Paintings</a>
+          <a class="dropdown-item" href="#intro1">Sketches</a>
+          <a class="dropdown-item" href="#intro2">Collage</a>
+		  <a class="dropdown-item" href="#intro3">Digital Art</a>
+        </div>
+      </div>
+	  <br>
+	  <br>
+</div>
+
+<div class="container">
+  <p class="text-center" id="intro">I absolutely love art!!! I've loved to draw, colour and paint ever since I was a little kid. 
+  I am not a professional but I love to try different things even if they don't look amazing. Painting is one of my favourite things to 
+  do because I find it very easy to express yourself that way. Here are some of my favourite paintings that I've made.</p>
+  <hr>
+</div>
+
+<div class="container">
+  <div class="row">
+  <!--dividing the page into 3 parts using bootstrap-->
+      <div class="col-sm-4">
+	    <img class="photos" src="images/horse.jpg" alt="horse">
+		
+      </div>
+	  <div class="col-sm-4">
+	    <img class="photos" src="images/sunset.jpg" alt="sunset">
+		
+      </div>
+	  <div class="col-sm-4">
+	    <img class="photos" src="images/geometric.jpg" alt="geometric">
+		
+      </div>
+  </div> 
+  <br>
+  <div class="row">
+  <!--dividing the page into 3 parts using bootstrap-->
+      <div class="col-sm-4">
+	    <img class="photos" src="images/painting.jpg" alt="painting">
+      </div>
+	  <div class="col-sm-4">
+	    <img class="photos" src="images/tree.jpg" alt="horse">
+      </div>
+	  <div class="col-sm-4">
+	    <img class="photos" src="images/flower.jpg" alt="flower">
+      </div>
+  
+  </div>
+</div>
+<br>
+<div class="container">
+   <hr>
+  <p class="text-center" id="intro1">I also love to sketch with my pencil. Infact it's my favourite type of art because you can
+  make so many different shades of the color grey. I like to sketch to relieve stress because it is very therapeutic. Here are some of my sketches.</p>
+  <hr>
+</div>
+
+<div class="container">
+  <div class="row">
+  <!--dividing the page into 3 parts using bootstrap-->
+      <div class="col-sm-4">
+	    <img class="photos" src="images/water.jpg" alt="water">
+		
+      </div>
+	  <div class="col-sm-4">
+	    <img class="photos" src="images/halime.jpg" alt="halime">
+		
+      </div>
+	  <div class="col-sm-4">
+	    <img class="photos" src="images/picnic.jpg" alt="picnic">
+		
+      </div>
+  </div> 
+  <br>
+  <div class="row">
+  <!--dividing the page into 3 parts using bootstrap-->
+      <div class="col-sm-4">
+	    <img class="photos" src="images/sphere.jpg" alt="sphere">
+      </div>
+	  <div class="col-sm-4">
+	    <img class="photos" src="images/letters.jpg" alt="letters">
+      </div>
+	  <div class="col-sm-4">
+	    <img class="photos" src="images/waterfall.jpg" alt="waterfall">
+      </div>
+  
+  </div>
+</div>
+<br>
+<div class="container">
+   <hr>
+  <p class="text-center" id="intro2">I don't really do collage art but here is a piece I did for my art project this year.</p>
+  <hr>
+  <img class="collage" src="images/collage.jpg" alt="collage">
+</div>
+
+<div class="container">
+   <hr>
+  <p class="text-center" id="intro3">I also do some digital art as well. I am not very experienced and I've started it last month. But it's also very fun as well.
+  Included is a little animation I made for an art project as well.</p>
+  <hr>
+</div>
+ <br>
+  <div class="row">
+  <!--dividing the page into 3 parts using bootstrap-->
+      <div class="col-sm-4">
+	    <video controls>
+		<source src="images/land.mp4" type="video/mp4">
+		</video>
+		<a class="jump" href="#top">Jump to top</a>
+
+      </div>
+	  <div class="col-sm-4">
+	    <img class="photo" src="images/fruits.jpg" alt="fruits">
+      </div>
+  
+  </div>
+ </body>
+ </html>
