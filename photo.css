@@ -1,0 +1,74 @@
+nav.navbar{
+	background-color: #f9e79f;
+}
+
+
+.jumbotron{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9fMu-ycjpG7y5ZuDIvFaQuQA0DnjcBfm-w&usqp=CAU");
+	font-family: fantasy;
+	text-decoration: underline;
+	text-decoration-color: #ffffff;
+	opacity: 1.0;
+	transition: opacity 1s;
+	
+}
+
+.jumbotron:hover{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9fMu-ycjpG7y5ZuDIvFaQuQA0DnjcBfm-w&usqp=CAU");
+	font-family: fantasy;
+	text-decoration: underline;
+	text-decoration-color: #ffffff;
+	opacity: 0.5;
+	
+}
+
+
+.jumbotron h1{
+	font-size: 100px;
+	font-weight: bold;
+	color: #ffffff
+}
+
+h1{
+	font-size:70px;
+	color: #ffffff;
+	font-family: cursive;
+	text-decoration: underline;
+	text-decoration-color: #ffffff;
+}
+
+.intro{
+	font-size: 25px;
+	font-family: Georgia;
+	color: #d4ac0d;
+}
+	
+
+.photos{
+	width:400px;
+	height:300px;
+	border-width:5px;
+	border-color:#f4d03f;
+	border-style: dashed;
+	opacity: 1.0;
+	transition: opacity 1.5s;
+}
+.photos:hover{
+	width:400px;
+	height:300px;
+	border-width:5px;
+	border-color:#f4d03f;
+	border-style: dashed;
+	opacity: 0.75;
+}
+	
+
+hr{
+	height: 2px;
+	background-color: #9a7d0a
+}
+
+#link{
+	color: #9a7d0a;
+	font-size: 20px;
+}
