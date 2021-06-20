@@ -1,0 +1,29 @@
+nav.navbar{
+	background-color: #d7bde2;
+}
+
+
+.jumbotron{
+	background-image: url("https://assets.muralswallpaper.com/hi-res/WA0066BU03W.jpg");
+	font-family: fantasy;
+	text-decoration: underline;
+	text-decoration-color: #ffffff;
+	opacity: 1.0;
+	transition: opacity 1s, background-image 1s;
+	
+}
+
+.jumbotron:hover{
+	background-image: url("https://assets.muralswallpaper.com/hi-res/WA0066BU03W.jpg");
+	font-family: fantasy;
+	text-decoration: underline;
+	text-decoration-color: #ffffff;
+	opacity: 0.5;
+	
+}
+
+
+.jumbotron h1{
+	font-size: 100px;
+	font-weight: bold;
+	color: #ffffff
