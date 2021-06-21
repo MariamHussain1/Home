@@ -14,10 +14,6 @@ nav.navbar{
 }
 
 .jumbotron:hover{
-	background-image: url("https://image.freepik.com/free-vector/abstract-classic-blue-background_23-2148422607.jpg");
-	font-family: oblique;
-	text-decoration: underline;
-	text-decoration-color: #ffffff;
 	opacity: 0.75;
 	
 }
@@ -46,9 +42,6 @@ h1{
 }	
 
 .mariam:hover{
-	width: 200px;
-	height:200px;
-	border-radius: 50%;
 	opacity: 0.75;
 	
 }
