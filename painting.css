@@ -9,7 +9,7 @@ nav.navbar{
 	text-decoration: underline;
 	text-decoration-color: #ffffff;
 	opacity: 1.0;
-	transition: opacity 1s, background-image 1s;
+	transition: opacity 1s, background-image 2s;
 	
 }
 
