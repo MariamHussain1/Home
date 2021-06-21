@@ -33,16 +33,15 @@ nav.navbar{
 .thumbnail{
 	border-color: #ff9933;
 	border-width: 3px;
-	opacity:1.0;
-	transition: opacity 1s;
+	/* opacity:1.0; */
+	/* transition: opacity 1s; */
 }
 
-.thumbnail:hover{
+/* .thumbnail:hover{
 	opacity:0.5;
 	
-	
 }
-
+ */
 
 
 
