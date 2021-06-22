@@ -1,8 +1,10 @@
+/* CSS file for photo.html*/
+/* changing he background image of the navigation bar*/
 nav.navbar{
 	background-color: #f9e79f;
 }
 
-
+/* adding the atributes for the jumbotron adding background image and transition*/
 .jumbotron{
 	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9fMu-ycjpG7y5ZuDIvFaQuQA0DnjcBfm-w&usqp=CAU");
 	font-family: fantasy;
@@ -12,23 +14,19 @@ nav.navbar{
 	transition: opacity 1s;
 	
 }
-
+/* changing opacity when jumbotron is hovered over*/
 .jumbotron:hover{
-	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9fMu-ycjpG7y5ZuDIvFaQuQA0DnjcBfm-w&usqp=CAU");
-	font-family: fantasy;
-	text-decoration: underline;
-	text-decoration-color: #ffffff;
 	opacity: 0.5;
 	
 }
 
-
+/* atributes for the jumbotron's heading*/
 .jumbotron h1{
 	font-size: 100px;
 	font-weight: bold;
 	color: #ffffff
 }
-
+/* atributes for all h1 headings throughout website*/
 h1{
 	font-size:70px;
 	color: #ffffff;
@@ -36,14 +34,14 @@ h1{
 	text-decoration: underline;
 	text-decoration-color: #ffffff;
 }
-
+/* atributes for the intro of the webiste and all other text areas*/
 .intro{
 	font-size: 25px;
-	font-family: Georgia;
+	font-family: Georgia, sans-serif;
 	color: #d4ac0d;
 }
 	
-
+/* atributes for the images and adding transition and border*/
 .photos{
 	width:400px;
 	height:300px;
@@ -53,21 +51,17 @@ h1{
 	opacity: 1.0;
 	transition: opacity 1.5s;
 }
+/* opacity changing when images hovered over*/
 .photos:hover{
-	width:400px;
-	height:300px;
-	border-width:5px;
-	border-color:#f4d03f;
-	border-style: dashed;
 	opacity: 0.75;
 }
 	
-
+/* adding horizontal lines*/
 hr{
 	height: 2px;
 	background-color: #9a7d0a
 }
-
+/* attributes for the relative link*/
 #link{
 	color: #9a7d0a;
 	font-size: 20px;

@@ -1,8 +1,10 @@
+/* CSS file for painting.html*/
+/* setting background colour for the navigation bar*/
 nav.navbar{
 	background-color: #ff6699;
 }
 
-
+/* setting background image for the jumbotron including properties for text inside*/
 .jumbotron{
 	background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-pure-color-watercolor-graffiti-gradient-background-board-design-board-design-image_66713.jpg");
 	font-family: cursive;
@@ -12,47 +14,38 @@ nav.navbar{
 	transition: opacity 1s, background-image 2s;
 	
 }
-
+/* setting transition attributes for what happens when jumbotron is hovered over:image changes*/
 .jumbotron:hover{
 	background-image: url("https://colormarketing.org/wp-content/uploads/2017/08/color_reports.jpg");
-	font-family: cursive;
-	text-decoration: underline;
-	text-decoration-color: #ffffff;
 	opacity: 0.5;
 	
 }
 
-
+/* atrributes for the headers in the jumbotron*/
 .jumbotron h1{
 	font-size: 100px;
 	font-weight: bold;
 	color: #ffffff
 }
-	
-#intro{
+/* attributes for each text area on website*/	
+#intro, #intro1, #intro2, #intro3{
 	font-size: 25px;
 	font-family: cursive;
 	color: #cc99ff;
 }
-
+/* changing colour of each text area*/	
 #intro1{
-	font-size: 25px;
-	font-family: cursive;
 	color: #ff6666;
 }
 
 #intro2{
-	font-size: 25px;
-	font-family: cursive;
 	color: #00ccff;
 }
 #intro3{
-	font-size: 25px;
-	font-family: cursive;
 	color: #ff66cc;
 }
 
-
+/* setting atributes for all the images adding transition*/	
 .photos{
 	width:300px;
 	height:400px;
@@ -62,20 +55,18 @@ nav.navbar{
 	opacity: 1.0;
 	transition: opacity 1.5s, filter 1s;
 }
+/* atributes during image hover*/	
 .photos:hover{
-	width:300px;
-	height:400px;
-	border-width:5px;
 	border-color:#ffcccc;
-	border-style: solid;
 	opacity: 0.75;
 	filter: hue-rotate(20deg);
 }
+/* atributes of horizontal lines*/	
 hr{
 height: 2px;
 background-color: #66ff99
 }
-
+/* atributes for drop down menu*/	
 button{
 	background-color: #ff3300;
 	color: #ffffff;
@@ -83,19 +74,12 @@ button{
 	width: 150px;
 
 }
+/* atributes for collage image that is centered when hovered over (color changes)*/	
 .collage:hover{
-	display: block;
-	margin-left: auto;
-    margin-right: auto;
-	height:400px;
-	width:400px;
-	border-width:5px;
-	border-color:#ffcccc;
-	border-style: solid;
 	opacity: 0.75;
 	filter: hue-rotate(20deg);
 }
-
+/* atributes for collage image that is centered when hovered over*/	
 .collage{
     display: block;
 	margin-left: auto;
@@ -108,14 +92,14 @@ button{
 	opacity: 1.0;
 	transition: opacity 1.5s, filter 1s;
 }
-
+/* atributes for adding the video to the website*/	
 video{
 	margin-left:140px;
 	width:400px;
 	height:300px;
 	margin-bottom: 100px;
 }
-
+/* atributes for adding the digital art image adding transition*/
 .photo{
 	margin-left: 400px;
 	width:300px;
@@ -126,18 +110,13 @@ video{
 	opacity: 1.0;
 	transition: opacity 1.5s, filter 1s;
 }
-
+/* atributes for when hovering over the photo*/
 .photo:hover{
-	margin-left: 400px;
-	width:300px;
-	height:400px;
-	border-width:5px;
 	border-color:#ffcccc;
-	border-style: solid;
 	opacity: 0.75;
 	filter: hue-rotate(20deg);
 }
-
+/* atributes for the relative link to jump back to the top*/
 .jump{
 	margin-left:140px;
 	font-size:25px;

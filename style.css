@@ -1,42 +1,48 @@
+/* CSS file for style.html*/
+/* changing background image on navigation bar*/
 nav.navbar{
 	background-color: #ffcc99;
 }
 
-
+/* adding background image on jumbotron and setting font-family*/
 .jumbotron{
 	background-image: url("https://image.freepik.com/free-vector/geometric-background-concept_23-2148540971.jpg");
-	font-family: papyrus;
+	font-family: papyrus, sans-serif;
 	
 	
 }
+/* attributes for heading in jumbotron*/
 .jumbotron h1{
 	font-size: 100px;
 	font-weight: bold;
 }
+/* attributes for h3 heading in jumbotron*/
 .jumbotron h3{
 	font-size: 30px;
 	font-weight: bold;
 	font-style: italic
 }
+/* attributes for intro in website*/
 #intro{
 	font-size: 25px;
 	font-family: Georgia;
 	color: #00805e;
 }
-
+/* attributes for the button beneath the images that contains hyper link*/
 .btn-block{
 	background-color: #00e6a8;
 	border-color: #000000;
 	font-size: 12px;
 	color: #000000;
 }
+/* attributes images that contain hyperlinks*/
 .thumbnail{
 	border-color: #ff9933;
 	border-width: 3px;
 	opacity:1.0;
 	transition: opacity 1s;
 }
-
+/* chaning opacity when hovered over*/
 .thumbnail:hover{
 	opacity:0.5;
 	

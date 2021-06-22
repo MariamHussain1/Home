@@ -1,8 +1,10 @@
+/* CSS sheet for baking.html */
+/* setting background color for navigation bar */
 nav.navbar{
 	background-color: #f5cba7;
 }
 
-
+/* setting background image for the jumbotron and adding font-families and other attributes for the text inside*/
 .jumbotron{
 	background-image: url("https://i.pinimg.com/originals/30/18/93/301893994930e20923a783b2646b01b9.jpg");
 	font-family: fantasy;
@@ -12,23 +14,19 @@ nav.navbar{
 	transition: opacity 1s, background-image 1s;
 	
 }
-
+/* Setting attributes for what happens when the jumbotron is hoververed*/
 .jumbotron:hover{
-	background-image: url("https://i.pinimg.com/originals/30/18/93/301893994930e20923a783b2646b01b9.jpg");
-	font-family: fantasy;
-	text-decoration: underline;
-	text-decoration-color: #6e2c00;
 	opacity: 0.5;
 	
 }
 
-
+/* Setting attributes for heading inside the jumbotron*/
 .jumbotron h1{
 	font-size: 100px;
 	font-weight: bold;
 	color: #6e2c00
 }
-
+/* Attributes for all the images including transition*/
 .photo{
 	opacity: 1.0;
 	width: 200px;
@@ -36,20 +34,17 @@ nav.navbar{
 	border-radius: 50%;
 	transition: opacity 1s;
 }	
-
+/* Changing opacity for images during transition*/
 .photo:hover{
-	width: 200px;
-	height:200px;
-	border-radius: 50%;
 	opacity: 0.75;
 	
 }
-
+/* Attributes for the paragraphs throughout the website*/
 p{
 	font-size: 20px;
 	color: #6e2c00 ;
 }
-
+/* Attributes of the horizontal lines in the code*/
 hr{
 	height: 2px;
 	background-color: #eb984e

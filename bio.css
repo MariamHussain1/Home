@@ -1,38 +1,40 @@
+/* CSS sheet for bio.html */
+/* background color for the navigation bar */
 nav.navbar{
 	background-color: #d6eaf8;
 }
 
-
+/* attributes for the jumbotron; setting the jumbotron background */
 .jumbotron{
 	background-image: url("https://image.freepik.com/free-vector/abstract-classic-blue-background_23-2148422607.jpg");
-	font-family: oblique;
+	font-family: oblique, sans-serif;
 	text-decoration: underline;
 	text-decoration-color: #ffffff;
 	opacity: 1.0;
 	transition: opacity 1s;
 	
 }
-
+/* changing opacity for the jumbotron */
 .jumbotron:hover{
 	opacity: 0.75;
 	
 }
 
-
+/* attributes for the headers in the jumbotron */
 .jumbotron h1{
 	font-size: 100px;
 	font-weight: bold;
 	color: #ffffff
 }
-
+/* attributes for the headers throughout the whole webiste */
 h1{
 	font-size:70px;
 	color: #1a5276;
-	font-family: oblique;
+	font-family: oblique, sans-serif;
 	text-decoration: underline;
 	text-decoration-color: #1a5276;
 }
-
+/* attributes for the images (turning them into rounded images)*/
 .mariam{
 	opacity: 1.0;
 	width: 200px;
@@ -40,27 +42,27 @@ h1{
 	border-radius: 50%;
 	transition: opacity 1s;
 }	
-
+/* changing image opacity when being hovered over*/
 .mariam:hover{
 	opacity: 0.75;
 	
 }
-
+/* attributes for all the paragraphs*/
 p{
 	font-size: 20px;
 	color: #5dade2;
 }
-
+/* attributes for all the horizontal lines*/
 hr{
 	height: 2px;
 	background-color: #85929e
 }
-
+/* class for the lists present in the html file*/
 .school{
 	font-size:20px;
 	color:#5499c7;
 }
-
+/* attributes for the drop-down menu*/
 button{
 	background-color: #1a5276;
 	color: #ffffff;
@@ -68,11 +70,11 @@ button{
 	width: 150px;
 
 }
-
+/* atributes for the table header; changing color*/
 thead{
 	background-color:#d6eaf8;
 }
-
+/* changing border width of table*/
 .table-bordered{
 	border-width: 3px;
 }

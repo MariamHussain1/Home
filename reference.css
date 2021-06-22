@@ -1,28 +1,26 @@
+/* CSS file for reference.html*/
+/* background colour for the navigation bar*/
 nav.navbar{
 	background-color: #d7bde2;
 }
 
-
+/* background image for the jumbotron and adding the other attributes (transitions)*/
 .jumbotron{
 	background-image: url("https://assets.muralswallpaper.com/hi-res/WA0066BU03W.jpg");
 	font-family: fantasy;
 	text-decoration: underline;
 	text-decoration-color: #ffffff;
 	opacity: 1.0;
-	transition: opacity 1s, background-image 1s;
+	transition: opacity 1s;
 	
 }
-
+/* changing the opacity for when hovering*/
 .jumbotron:hover{
-	background-image: url("https://assets.muralswallpaper.com/hi-res/WA0066BU03W.jpg");
-	font-family: fantasy;
-	text-decoration: underline;
-	text-decoration-color: #ffffff;
 	opacity: 0.5;
 	
 }
 
-
+/* atrributes for the heading of the jumbotron*/
 .jumbotron h1{
 	font-size: 100px;
 	font-weight: bold;
