@@ -1,14 +1,17 @@
+<!--CSS file for the index page-->  
+<!--background color for the navigation bar as orange-->  
 nav.navbar{
 	background-color: #ffcc99;
 }
 
-
+<!--background image for the jumbotron and setting font-family-->  
 .jumbotron{
 	background-image: url("https://image.freepik.com/free-vector/geometric-background-concept_23-2148540971.jpg");
 	font-family: papyrus;
 	
 	
 }
+<!--attibutes for the text in jumbotron-->  
 .jumbotron h1{
 	font-size: 100px;
 	font-weight: bold;
@@ -18,25 +21,27 @@ nav.navbar{
 	font-weight: bold;
 	font-style: italic
 }
+<!--attributes for the intro of the website-->    
 #intro{
 	font-size: 25px;
 	font-family: Georgia;
 	color: #00805e;
 }
-
+<!--attributes for button beneath the images-->  
 .btn-block{
 	background-color: #00e6a8;
 	border-color: #000000;
 	font-size: 12px;
 	color: #000000;
 }
+<!--attributes for images-->  
 .thumbnail{
 	border-color: #ff9933;
 	border-width: 3px;
 	opacity:1.0;
 	transition: opacity 1s;
 }
-
+<!--transition for when hovering over the images-->  
 .thumbnail:hover{
 	opacity:0.5;
 	
