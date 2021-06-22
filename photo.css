@@ -1,10 +1,8 @@
-<!--CSS file for the photography page--> 
-<!--the background color for the navigation bar--> 
 nav.navbar{
 	background-color: #f9e79f;
 }
 
-<!--the background image for the jumbotron and other attributes--> 
+
 .jumbotron{
 	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9fMu-ycjpG7y5ZuDIvFaQuQA0DnjcBfm-w&usqp=CAU");
 	font-family: fantasy;
@@ -14,7 +12,7 @@ nav.navbar{
 	transition: opacity 1s;
 	
 }
-<!--adding attributes for the transition--> 
+
 .jumbotron:hover{
 	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9fMu-ycjpG7y5ZuDIvFaQuQA0DnjcBfm-w&usqp=CAU");
 	font-family: fantasy;
@@ -24,13 +22,12 @@ nav.navbar{
 	
 }
 
-<!--adding attributes for the jumbotron text--> 
+
 .jumbotron h1{
 	font-size: 100px;
 	font-weight: bold;
 	color: #ffffff
 }
-<!--adding attributes for the header tags throughout the page--> 
 
 h1{
 	font-size:70px;
@@ -39,14 +36,14 @@ h1{
 	text-decoration: underline;
 	text-decoration-color: #ffffff;
 }
-<!--adding attributes for the intro--> 
+
 .intro{
 	font-size: 25px;
 	font-family: Georgia;
 	color: #d4ac0d;
 }
 	
-<!--adding attributes for the images in the website--> 
+
 .photos{
 	width:400px;
 	height:300px;
@@ -56,7 +53,6 @@ h1{
 	opacity: 1.0;
 	transition: opacity 1.5s;
 }
-<!--adding transition attributes for when hovering--> 
 .photos:hover{
 	width:400px;
 	height:300px;
@@ -65,7 +61,7 @@ h1{
 	border-style: dashed;
 	opacity: 0.75;
 }
-<!--adding attributes for the line breakers and for the link--> 	
+	
 
 hr{
 	height: 2px;

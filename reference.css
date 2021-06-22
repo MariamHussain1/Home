@@ -1,10 +1,8 @@
-<!--CSS file for the reference page--> 
-<!--The background colour of the navigation bar-->  
 nav.navbar{
 	background-color: #d7bde2;
 }
 
-<!--setting the background for the jumbotron and setting other attributes-->  
+
 .jumbotron{
 	background-image: url("https://assets.muralswallpaper.com/hi-res/WA0066BU03W.jpg");
 	font-family: fantasy;
@@ -14,7 +12,7 @@ nav.navbar{
 	transition: opacity 1s, background-image 1s;
 	
 }
-<!--adding attributes for transitions-->  
+
 .jumbotron:hover{
 	background-image: url("https://assets.muralswallpaper.com/hi-res/WA0066BU03W.jpg");
 	font-family: fantasy;
@@ -24,7 +22,7 @@ nav.navbar{
 	
 }
 
-<!--adding attributes for the text in the jumbotron--> 
+
 .jumbotron h1{
 	font-size: 100px;
 	font-weight: bold;
