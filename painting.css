@@ -92,13 +92,7 @@ button{
 	opacity: 1.0;
 	transition: opacity 1.5s, filter 1s;
 }
-/* atributes for adding the video to the website*/	
-video{
-	margin-left:140px;
-	width:400px;
-	height:300px;
-	margin-bottom: 100px;
-}
+
 /* atributes for adding the digital art image adding transition*/
 .photo{
 	margin-left: 400px;
